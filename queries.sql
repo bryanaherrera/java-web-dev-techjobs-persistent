@@ -13,4 +13,4 @@ SELECT name, description
 FROM skill
 WHERE id in (SELECT skills_id
 			 FROM job_skills)
-ORDER BY name;
+ORDER BY name asc;
